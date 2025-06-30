@@ -3,138 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
+    <title>🧠 Magnesium L-Threonate - Product Description</title>
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-           
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
             margin: 0;
-            background-color: #f8f9fa;
+            padding: 0;
+            background-color: #f9fafb; /* Light gray background */
+            color: #374151; /* Dark gray text */
         }
+
+        /* Container Styles */
         .container {
+            width: 60%; /* Always 60% of screen width */
+            margin: 2rem auto; /* Centered horizontally */
+            padding: 2rem;
+            background-color: #ffffff; /* White background */
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
             display: flex;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 60%;
-            margin-top: 5%;
-         
-            
-           
-        }
-        .image {
-            flex: 1;
-            display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-           
         }
-        .image img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .details {
-            flex: 1;
-            padding: 20px;
-        }
-        .logo {
-            
-        }
+
+        /* Responsive Adjustments */
         @media (max-width: 768px) {
             .container {
-                display: grid;
-                grid-template-columns: 1f;
-                width: 80%;
+                width: 90%; /* Almost full width on mobile */
+                padding: 1.5rem;
             }
-            .details{
-                padding: 0px;
-                
-            }
-            
+        }
+
+        /* Headings */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2563eb;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eff6ff;
+            padding-bottom: 0.5rem;
+            width: 100%;
+            text-align: left;
+        }
+
+        /* Paragraphs */
+        p {
+            margin-bottom: 1rem;
+            text-align: left;
+            width: 100%;
+        }
+
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            width: 100%;
+        }
+        ul li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            text-align: left;
+        }
+        .check-icon {
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+        }
+        .cross-icon {
+            color: #ef4444;
+            font-weight: bold;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+        }
+
+        /* Section Separator */
+        .section-separator {
+            border-top: 1px dashed #d1d5db;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+
+        /* Rounded Pill */
+        .rounded-pill {
+            display: inline-block;
+            background-color: #bfdbfe;
+            color: #1e40af;
+            padding: 0.3rem 0.8rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        /* Logo */
+        .logo {
+            display: block;
+            margin: 0 auto 1.5rem auto;
+            max-width: 200px;
+            height: auto;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* Warning Text */
+        .warning-text {
+            color: #d97706;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
-    
     <div class="container">
-        <div class="logo">
-            <img src="logo.jpg" alt="Company Logo" width="100">
-        </div>
-       
-       
-        <div class="details">
-            <h1>Magnesium L-Threonate</h1>
-            <h2>Название продукта:</h2>
-            <p>🧠 Magnesium L-Threonate — инновационная форма магния для поддержки работы мозга и нервной системы.</p>
-            <h2>Краткое описание:</h2>
-            <p>Magnesium L-Threonate — это высокоэффективная форма магния, способная проникать через гематоэнцефалический барьер и активно участвовать в поддержании когнитивных функций, улучшении памяти, концентрации и снижении уровня стресса.</p>
+        <!-- Logo -->
+        <img src="logo.jpg" class="logo">
 
-<h3>Состав и активные компоненты (на 2 капсулы):</h3>
-<p>•	Магний (из Magnesium L-Threonate) — 650 мг</p>
-<h3>Форма выпуска:</h3>
-<p>•	60 вегетарианских капсул в стеклянной бутылке.</p>
+        <!-- Title -->
+        <h1>🧠 Magnesium L-Threonate </h1>
 
-<h3>🩺 Как работает продукт</h3>
-<p>•	Magnesium L-Threonate — это единственная форма магния, разработанная специально для эффективного проникновения в мозговую ткань. Она повышает уровень магния в головном мозге, что способствует улучшению нейропластичности, памяти и обучаемости.</p>
-<p>•	Магний регулирует активность нейронных рецепторов, снижает чрезмерную нейрональную активность, уменьшает уровень тревожности и способствует более глубокому, качественному сну.</p>
-<p>•	В отличие от традиционных форм магния (магний оксид, магний цитрат), L-треонат обладает повышенной биодоступностью для нервной системы, сохраняя при этом хорошую переносимость.</p>
+        <!-- Tagline -->
+        <div class="rounded-pill">🧠 Magnesium L-Threonate — инновационная форма магния для поддержки работы мозга и нервной системы.</div>
 
+        <!-- Introduction -->
+        <p>
+           Magnesium L-Threonate — это высокоэффективная форма магния, способная проникать через гематоэнцефалический барьер и активно участвовать в поддержании когнитивных функций, улучшении памяти, концентрации и снижении уровня стресса.
+        </p>
 
-<h3>🎯 Основные показания к применению</h3>
-<p>•	Снижение когнитивных функций (память, концентрация)</p>
-<p>•	Поддержка здоровья мозга при старении</p>
-<p>•	Хронический стресс и нервное перенапряжение</p>
-<p>•	Нарушения сна (особенно трудности с засыпанием)</p>
-<p>•	Повышенные умственные нагрузки (экзамены, проекты, интеллектуальная работа)</p>
-<p>•	Дефицит магния, проявляющийся мышечной слабостью, судорогами, утомляемостью</p>
+        <!-- Composition -->
+        <h2>Состав и активные компоненты (на 2 капсулы):</h2>
+        <ul>
+            <li><span class="check-icon">&#10003;</span>Магний (из Magnesium L-Threonate) — 650 мг</li>
+        <p><strong>Форма выпуска: </strong>60 вегетарианских капсул в стеклянной бутылке.</p>
 
+        <!-- How It Works -->
+        <h2>🩺 Как работает продукт</h2>
+        <ul>
+            <p><span class="check-icon">&#10003;</span> <strong>Magnesium L-Threonate —</strong> это единственная форма магния, разработанная специально для эффективного проникновения в мозговую ткань. Она повышает уровень магния в головном мозге, что способствует улучшению нейропластичности, памяти и обучаемости.</p>
+            <p><span class="check-icon">&#10003;</span>Магний регулирует активность нейронных рецепторов, снижает чрезмерную нейрональную активность, уменьшает уровень тревожности и способствует более глубокому, качественному сну.</p>
+            <p><span class="check-icon">&#10003;</span>В отличие от традиционных форм магния (магний оксид, магний цитрат), L-треонат обладает повышенной биодоступностью для нервной системы, сохраняя при этом хорошую переносимость.</p>
+        </ul>
+                        
+        <!-- Indications -->
+        <h2>🎯 Основные показания к применению</h2>
+        <ul>
+            <li><span class="check-icon">&#10003;</span>Снижение когнитивных функций (память, концентрация)</li>
+            <li><span class="check-icon">&#10003;</span>Поддержка здоровья мозга при старении</li>
+            <li><span class="check-icon">&#10003;</span>Хронический стресс и нервное перенапряжение</li>
+            <li><span class="check-icon">&#10003;</span>Нарушения сна (особенно трудности с засыпанием)</li>
+            <li><span class="check-icon">&#10003;</span>Повышенные умственные нагрузки (экзамены, проекты, интеллектуальная работа)</li>
+            <li><span class="check-icon">&#10003;</span>Дефицит магния, проявляющийся мышечной слабостью, судорогами, утомляемостью</li>
+           
+        </ul>
 
-
-<h3>💊 Рекомендации по применению</h3>
-<p>•	Взрослым: по 2 капсулы в день, желательно вечером, после еды.</p>
-<p>•	Продолжительность курса: минимум 4–8 недель для выраженного эффекта.</p>
-<p>•	Для оптимального результата рекомендуется прием курса 2–3 месяца с последующим перерывом.</p>
-<p><strong>Важно:</strong> не превышать рекомендованную дозировку без консультации специалиста.</p>
-
-<h3>⚠️ Противопоказания</h3>
-<p>•	Индивидуальная непереносимость компонентов.</p>
-<p>•	Тяжелая почечная недостаточность.</p>
-<p>•	Беременность и период лактации — прием только по согласованию с врачом.</P>
-
-
-<h3>👨‍⚕️ Кому особенно рекомендуется</h3>
-<p>•	Студентам и специалистам, испытывающим высокие интеллектуальные нагрузки</p>
-<p>•	Людям старшего возраста для профилактики возрастных изменений памяти</p>
-<p>•	Всем, кто испытывает стресс, тревожность или хроническую усталость</p>
-<p>•	Людям с нарушениями сна</p>
-<p>•	Спортсменам для восстановления после тренировок и профилактики мышечных спазмов</P>
-
+        <!-- Usage Recommendations -->
+        <h2>💊 Рекомендации по применению</h2>
+        <ul>
+            <li><span class="check-icon">&#10003;</span>Взрослым: по 2 капсулы в день, желательно вечером, после еды.</li>
+            <li><span class="check-icon">&#10003;</span>Продолжительность курса: минимум 4–8 недель для выраженного эффекта.</li>
+            <li><span class="check-icon">&#10003;</span>Для оптимального результата рекомендуется прием курса 2–3 месяца с последующим перерывом.</li>
+        </ul>
+        <ul>
+        <p><strong>Важно: </strong>не превышать рекомендованную дозировку без консультации специалиста.</p>
+        </ul>
 
 
+        <!-- Contraindications -->
+        <h2>⚠️ Противопоказания</h2>
+        <ul>
+            <li><span class="cross-icon">&#10006;</span>Индивидуальная непереносимость компонентов.</li>
+            <li><span class="cross-icon">&#10006;</span>Тяжелая почечная недостаточность.</li>
+            <li><span class="cross-icon">&#10006;</span>Беременность и период лактации — прием только по согласованию с врачом.</li>
 
-<h3>🌟 Почему выбрать Magnesium L-Threonate</h3>
-<p>•	Использование уникальной формы магния с доказанной способностью проникать в мозг.</p>
-<p>•	Повышенная биодоступность по сравнению с традиционными формами магния.</p>
-<p>•	Без ГМО, без глютена, без искусственных красителей и консервантов.</p>
-<p>•	Подходит для вегетарианцев.</p>
-<p>•	Стеклянная бутылка для максимальной защиты качества.</p>
-<p>•	Производство по стандарту GMP.</p>
+           
+        <!-- Who Should Use It -->
+        <h2>👨‍⚕️ Кому особенно рекомендуется</h2>
+        <ul>
+            <li><span class="check-icon">&#10003;</span>Студентам и специалистам, испытывающим высокие интеллектуальные нагрузки</li>
+            <li><span class="check-icon">&#10003;</span>Людям старшего возраста для профилактики возрастных изменений памяти</li>
+            <li><span class="check-icon">&#10003;</span>Всем, кто испытывает стресс, тревожность или хроническую усталость</li>
+            <li><span class="check-icon">&#10003;</span>Людям с нарушениями сна</li>
+            <li><span class="check-icon">&#10003;</span>Спортсменам для восстановления после тренировок и профилактики мышечных спазмов</li>
+        </ul>
 
+        <!-- Why Choose 🧠 Magnesium L-Threonate -->
+        <h2>🌟 Почему выбрать Magnesium L-Threonate</h2>
+        <ul>
+            <li><span class="check-icon">&#10003;</span>Использование уникальной формы магния с доказанной способностью проникать в мозг.</li>
+            <li><span class="check-icon">&#10003;</span>Повышенная биодоступность по сравнению с традиционными формами магния.</li>
+            <li><span class="check-icon">&#10003;</span>Без ГМО, без глютена, без искусственных красителей и консервантов.</li>
+            <li><span class="check-icon">&#10003;</span>Подходит для вегетарианцев.</li>
+            <li><span class="check-icon">&#10003;</span>Стеклянная бутылка для максимальной защиты качества.</li>
+            <li><span class="check-icon">&#10003;</span>Производство по стандарту GMP.</li>
 
-<h3>📝 Дополнительные замечания</h3>
-<p>•	Принимая Magnesium L-Threonate вечером, можно усилить качество сна и способствовать восстановлению нервной системы.</p>
-<p>•	Может безопасно сочетаться с другими нутрицевтиками (например, омега-3, витаминами группы B) после консультации с врачом.</p>
-<p>•	Не является лекарственным средством.</p>
+        </ul>
 
+        <!-- Additional Notes -->
+        <h2>📝 Дополнительные замечания</h2>
+        <ul>
+            <li><span class="cross-icon">&#9888;</span> <span class="warning-text">Принимая Magnesium L-Threonate вечером, можно усилить качество сна и способствовать восстановлению нервной системы.</span></li>
+            <li><span class="cross-icon">&#9888;</span> <span class="warning-text">Может безопасно сочетаться с другими нутрицевтиками (например, омега-3, витаминами группы B) после консультации с врачом.</span></li>
+            <li><span class="cross-icon">&#9888;</span> <span class="warning-text">Не является лекарственным средством.</span></li>
 
-            
-
-
-        </div>
+        </ul>
     </div>
 </body>
 </html>
